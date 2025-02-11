@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://versesofawanderer.netlify.app/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-02-11T20:05:14+05:30</lastmod>
   </url><url>
-    <loc>https://versesofawanderer.netlify.app/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://versesofawanderer.netlify.app/tags/life/</loc>
+    <loc>http://localhost:1313/tags/life/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://versesofawanderer.netlify.app/posts/my-first-post/</loc>
+    <loc>http://localhost:1313/posts/my-first-post/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://versesofawanderer.netlify.app/tags/personal/</loc>
+    <loc>http://localhost:1313/tags/personal/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://versesofawanderer.netlify.app/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://versesofawanderer.netlify.app/categories/reflections/</loc>
+    <loc>http://localhost:1313/categories/reflections/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://versesofawanderer.netlify.app/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url>
 </urlset>

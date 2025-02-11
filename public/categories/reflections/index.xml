@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Reflections on My Personal Blog</title>
-    <link>https://versesofawanderer.netlify.app/categories/reflections/</link>
+    <link>http://localhost:1313/categories/reflections/</link>
     <description>Recent content in Reflections on My Personal Blog</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://versesofawanderer.netlify.app/categories/reflections/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/reflections/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Blog Post</title>
-      <link>https://versesofawanderer.netlify.app/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://versesofawanderer.netlify.app/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;p&gt;Welcome to my personal blog! This is where I share my thoughts, experiences, and insights.&lt;/p&gt;</description>
     </item>
   </channel>
