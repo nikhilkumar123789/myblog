@@ -1,4 +1,4 @@
-baseURL = "https://yourblog.netlify.app/"
+baseURL = "https://versesofawanderer.netlify.app/"
 title = "My Personal Blog"
 theme = "PaperMod"
 languageCode = "en-us"
