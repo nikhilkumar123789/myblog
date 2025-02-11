@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>My Personal Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://versesofawanderer.netlify.app/</link>
     <description>Recent content on My Personal Blog</description>
     <generator>Hugo -- 0.143.1</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://versesofawanderer.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://versesofawanderer.netlify.app/about/</link>
+      <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://versesofawanderer.netlify.app/about/</guid>
+      <description>&lt;p&gt;Welcome to my blog! I&amp;rsquo;m a passionate writer sharing my thoughts and experiences.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Blog Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://versesofawanderer.netlify.app/posts/my-first-post/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://versesofawanderer.netlify.app/posts/my-first-post/</guid>
       <description>&lt;p&gt;Welcome to my personal blog! This is where I share my thoughts, experiences, and insights.&lt;/p&gt;</description>
     </item>
   </channel>
