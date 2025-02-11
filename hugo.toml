@@ -1,10 +1,10 @@
 baseURL = "https://versesofawanderer.netlify.app/"
-title = "My Personal Blog"
+title = "Verses of a wanderer"
 theme = "PaperMod"
 languageCode = "en-us"
 
 [params]
-  author = "Your Name"
+  author = "Nikhil"
   description = "A space for my thoughts and stories."
   defaultTheme = "auto"  # Dark mode support
   showReadingTime = true
