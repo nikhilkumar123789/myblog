@@ -1,0 +1,30 @@
+baseURL = "https://yourblog.netlify.app/"
+title = "My Personal Blog"
+theme = "PaperMod"
+languageCode = "en-us"
+
+[params]
+  author = "Your Name"
+  description = "A space for my thoughts and stories."
+  defaultTheme = "auto"  # Dark mode support
+  showReadingTime = true
+  disableComments = false
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow HTML in markdown
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
