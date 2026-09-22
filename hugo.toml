@@ -20,6 +20,13 @@ enableRobotsTXT = true
   disableComments = false
   mainSections = ["posts"]
 
+  [params.assets]
+    favicon = "/favicon.svg"
+    favicon16x16 = "/favicon.svg"
+    favicon32x32 = "/favicon.svg"
+    apple_touch_icon = "/favicon.svg"
+    theme_color = "#1f2d2a"
+
   [params.homeInfoParams]
     Title = "Wander softly. Write honestly."
     Content = "Thoughts on growth, mountains, memory, and the quiet rituals that shape a life."
