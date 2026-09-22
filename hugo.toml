@@ -9,6 +9,11 @@ languageCode = "en-us"
   defaultTheme = "auto"  # Dark mode support
   showReadingTime = true
   disableComments = false
+  mainSections = ["posts"]
+
+  [params.homeInfoParams]
+    Title = "Welcome to my journal"
+    Content = "I write about growth, reflection, and the small changes that shape a life."
 
 [menu]
   [[menu.main]]
