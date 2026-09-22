@@ -161,6 +161,28 @@ body::before {
 
 .post-content {
   font-size: 1.06rem;
+  color: var(--content);
+}
+
+.dark .post-content,
+.dark .post-entry .entry-content,
+.dark .page-content,
+.dark .post-description {
+  color: var(--content);
+}
+
+.dark .post-content p,
+.dark .post-content li,
+.dark .post-content blockquote,
+.dark .post-content td,
+.dark .post-content th,
+.dark .post-content code,
+.dark .post-content pre {
+  color: var(--content);
+}
+
+.dark .post-content a {
+  color: #dfead9;
 }
 
 .post-content h1,
@@ -170,6 +192,13 @@ body::before {
   margin-top: 2rem;
   margin-bottom: 0.9rem;
   letter-spacing: -0.03em;
+  color: var(--primary);
+}
+
+.dark .post-content h1,
+.dark .post-content h2,
+.dark .post-content h3,
+.dark .post-content h4 {
   color: var(--primary);
 }
 
