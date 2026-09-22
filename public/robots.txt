@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://versesofawanderer.netlify.app/sitemap.xml

@@ -1,34 +1,51 @@
 baseURL = "https://versesofawanderer.netlify.app/"
 title = "Verses of a wanderer"
 theme = "PaperMod"
-languageCode = "en-us"
+locale = "en-us"
+paginate = 8
+summaryLength = 120
+enableRobotsTXT = true
 
 [params]
   author = "Nikhil"
-  description = "A space for my thoughts and stories."
-  defaultTheme = "auto"  # Dark mode support
-  showReadingTime = true
+  description = "Essays, notes, and quiet observations from a life in motion."
+  keywords = ["personal blog", "writing", "reflections", "nature", "travel", "mindfulness"]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
   disableComments = false
   mainSections = ["posts"]
 
   [params.homeInfoParams]
-    Title = "Welcome to my journal"
-    Content = "I write about growth, reflection, and the small changes that shape a life."
+    Title = "Wander softly. Write honestly."
+    Content = "Thoughts on growth, mountains, memory, and the quiet rituals that shape a life."
 
 [menu]
   [[menu.main]]
     name = "Home"
-    url = "/"
+    pageRef = "/"
     weight = 1
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Categories"
+    pageRef = "/categories/"
     weight = 2
+  [[menu.main]]
+    name = "Tags"
+    pageRef = "/tags/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about/"
+    weight = 4
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true  # Allow HTML in markdown
+      unsafe = true
 
 [taxonomies]
   category = "categories"
