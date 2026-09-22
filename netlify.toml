@@ -4,3 +4,4 @@
 
 [build.environment]
   HUGO_VERSION = 'latest'
+  GIT_SUBMODULE_STRATEGY = "recursive"
