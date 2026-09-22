@@ -6,18 +6,18 @@
   --header-height: 82px;
   --footer-height: 96px;
   --radius: 24px;
-  --theme: #f4efe8;
-  --entry: rgba(255, 255, 255, 0.7);
-  --primary: #1c2321;
-  --secondary: #596566;
+  --theme: #f7f3ee;
+  --entry: rgba(255, 255, 255, 0.82);
+  --primary: #221f1d;
+  --secondary: #4a4a47;
   --tertiary: #d8c0a7;
-  --content: #1f2423;
-  --code-bg: #f7f2ec;
-  --border: rgba(78, 87, 87, 0.12);
-  --accent: #7d8f7a;
-  --accent-strong: #425b52;
-  --warm: #b67952;
-  --warm-soft: rgba(182, 121, 82, 0.12);
+  --content: #222220;
+  --code-bg: #f8f4f0;
+  --border: rgba(42, 39, 35, 0.12);
+  --accent: #51695d;
+  --accent-strong: #2e4d45;
+  --warm: #b2774e;
+  --warm-soft: rgba(178, 119, 78, 0.12);
 }
 
 .dark {
@@ -41,9 +41,9 @@ html {
 
 body {
   background:
-    radial-gradient(circle at top left, rgba(125, 143, 122, 0.18), transparent 28%),
-    radial-gradient(circle at top right, rgba(182, 121, 82, 0.18), transparent 25%),
-    linear-gradient(180deg, #f7f4f0 0%, #f1ece7 100%);
+    radial-gradient(circle at top left, rgba(125, 143, 122, 0.14), transparent 28%),
+    radial-gradient(circle at top right, rgba(178, 119, 78, 0.14), transparent 24%),
+    linear-gradient(180deg, #f9f5f0 0%, #f3eee8 100%);
   color: var(--content);
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
@@ -74,7 +74,7 @@ body::before {
   padding: 0.9rem 1.15rem;
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.58);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(12px);
   box-shadow: 0 12px 28px rgba(18, 26, 25, 0.08);
 }
@@ -155,12 +155,20 @@ body::before {
 .post-content,
 .page-content,
 .post-description {
-  color: var(--secondary);
+  color: var(--content);
   line-height: 1.8;
 }
 
 .post-content {
   font-size: 1.06rem;
+  color: var(--content);
+}
+
+.post-content p,
+.post-content li,
+.post-content ol,
+.post-content ul,
+.post-content blockquote {
   color: var(--content);
 }
 
@@ -179,6 +187,12 @@ body::before {
 .dark .post-content code,
 .dark .post-content pre {
   color: var(--content);
+}
+
+body, .post-content, .post-entry, .page-header, .home-info {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .dark .post-content a {
