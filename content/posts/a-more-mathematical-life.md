@@ -1,16 +1,17 @@
 ---
 title: "A More Mathematical Life"
 date: 2026-09-25
+author: "Nikhil"
+tags: ["mathematics", "probability", "quantitative finance", "learning", "personal"]
+categories: ["Reflections"]
 draft: false
 description: "On curiosity, patterns, difficult problems, and how mathematical thinking quietly shapes the way I see the world."
-tags:
-  - mathematics
-  - probability
-  - quantitative finance
-  - learning
-  - personal
 images:
   - "/images/a-more-mathematical-life.png"
+cover:
+  image: "/images/a-more-mathematical-life.png"
+  alt: "A quiet afternoon with mathematics"
+  relative: true
 ---
 
 ![A quiet afternoon with mathematics](/images/a-more-mathematical-life.png)
