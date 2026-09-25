@@ -14,8 +14,6 @@ cover:
   relative: true
 ---
 
-![A quiet afternoon with mathematics](/images/a-more-mathematical-life.png)
-
 *Some thoughts on curiosity, patterns, work, and the strange comfort of trying to understand things.*
 
 ## Why mathematics keeps finding its way into my life
